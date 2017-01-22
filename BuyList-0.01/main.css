@@ -1,0 +1,210 @@
+body{
+    background-color:#cdcbcb;
+}
+.name-prod{
+    margin-right:-5px;
+    margin-left: 18px;
+    width:75%;
+}
+.button-add-prod{
+    width: 20%;
+    background:lightseagreen;
+    color:white ;
+    font-weight:bold;
+}
+.hr{
+
+    border: none;
+    background-color: #cdcbcb;
+    color: #cdcbcb;
+    height: 2px;
+
+}
+.bl-background {
+    padding: 50px;
+}
+
+.product1{
+    margin: 10px 5px;
+}
+.product2{
+    margin: 10px 5px;
+}
+.product3{
+    margin: 10px 5px;
+}
+
+.bl-list {
+
+    box-shadow: 5px 5px 5px grey;
+    background: white;
+    margin: 50px 25px;
+    width: 60%;
+    height: auto;
+}
+
+.bl-bought {
+
+    box-shadow: 5px 5px 5px grey;
+    position: fixed;
+    top: 108px;
+    right: 190px;
+
+    height:230px;
+    width: 20%;
+    background:	white;
+    float:	right;
+}
+.bl-lists{
+
+    margin-left: 10px;
+    padding-right:100px; ;
+    text-align:center;
+    padding:6px 4px;
+    border-radius: 4px;
+    font:14px Arial, Helvetica, sans-serif;
+    color:#000000;
+    background: #cdcbcb;
+}
+.bl-lists1{
+    margin-left:5px;
+    padding:2px 6px;
+    border-radius: 10px;
+    font:11px Arial, Helvetica, sans-serif;
+    color:#000000;
+    background: orange;
+}
+.bl-lists2{
+    margin-left: 10px;
+    padding-right:100px; ;
+    text-align:center;
+    padding:6px 4px;
+    border-radius: 4px;
+    font:14px Arial, Helvetica, sans-serif;
+    color:#000000;
+    background: #cdcbcb;
+}
+.bl-lists3{
+    padding:3px 3px;
+    border-radius: 40px;
+    font:12px Arial, Helvetica, sans-serif;
+    color:#000000;
+    background: orange;
+}
+.bl-lists4{
+    margin-left: 10px;
+    padding-right:100px; ;
+    text-align:center;
+    padding:6px 4px;
+    border-radius: 4px;
+    font:14px Arial, Helvetica, sans-serif;
+    color:#000000;
+    background: #cdcbcb;
+}
+.bl-lists5{
+    padding:3px 3px;
+    border-radius: 40px;
+    font:12px Arial, Helvetica, sans-serif;
+    color:#000000;
+    background: orange;
+}
+.bl-title{
+
+    font-family: "Georgia", Times, serif;
+    font-weight:bold;
+    width: 100px;
+    height: 38px;
+
+    margin-top: 20px;
+    margin-left:20px;
+    left: 40%;
+}
+.bl-title1{
+    font-family: "Georgia", Times, serif;
+    font-weight:bold;
+    width: 100px;
+    height: 38px;
+
+    margin-top: 20px;
+    margin-left:20px;
+    left: 40%;
+}
+.bl-count1{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 45.5%;
+    left: 40%;
+    margin: -125px 0 0 -125px;
+
+}
+.bl-count2{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 54.5%;
+    left: 40%;
+    margin: -125px 0 0 -125px;
+
+}
+.bl-count3{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 62.5%;
+    left: 40%;
+    margin: -125px 0 0 -125px;
+
+}
+.bl-button{
+
+    top: 50%;
+    left: 50%;
+    margin: -20px 0 0 580px;
+}
+
+/*Кнопки*/
+.bl-label {
+    text-align:center;
+    padding:2px 6px;
+    border-radius: 4px;
+    font:16px Arial, Helvetica, sans-serif;
+    color:#000000;
+    background: #cdcbcb;
+
+}
+.bl-plus {
+    text-align:center;
+    padding:2px 6px;
+    border-radius: 50px;
+    font:15px Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color: #38ad5d;
+    background-color:#3bc740;
+    text-shadow: 1px 0px 3px #ffffff;
+}
+.bl-minus{
+    padding:2px 6px;
+    border-radius: 50px;
+    font:16px Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color:#ffffff;
+    background-color:#ff0000;
+    text-shadow: 1px 0px 3px #ffffff;
+
+}
+.bl-buttons{
+    margin-top:6px;
+    margin-bottom:8px;
+
+
+
+}
+.bl-buttons1{
+    padding:2px 8px;
+    border-radius: 5px;
+    font:13px "Times New Roman", Times, serif;
+    font-weight:bold;
+    color:#ffffff;
+    background-color:#ff0000;
+}

@@ -1,16 +1,45 @@
 body{
-    background-color:#cdcbcb;
+    background-color: #d7d5d5;
+    min-width:700px;
+    max-width: 1080px;
+    margin:auto;
+}
+.bl-product{
+    line-height: 100%;
+    background: #FFF;
+}
+.button{
+    height: 30px;
+    width: 100%;
 }
 .name-prod{
-    margin-right:-5px;
-    margin-left: 18px;
-    width:75%;
+    margin-left: 5%;
+    height: 27px;
+    width:70%;
+    background: #FFF;
+    border: 2px solid #d7d7d7;
+    color: #000000;
+    font:14px Florence, cursive;
+    border-radius: 3px;
 }
 .button-add-prod{
-    width: 20%;
-    background:lightseagreen;
+    height: 33px;
+    width: 24%;
+    background: #2185D0;
     color:white ;
     font-weight:bold;
+    border-radius: 5px 5px 5px;
+    padding-top: -2px;
+    /*padding-bottom: 8px;*/
+    margin: 0 0 0 -1%;
+    border: none;
+    box-shadow: 0 2px #66abc5;
+    font-size: 100%;
+    min-height:100%;
+    vertical-align: middle;
+    font:14px Florence, cursive bold;
+
+
 }
 .hr{
 
@@ -22,16 +51,15 @@ body{
 }
 .bl-background {
     padding: 50px;
+    min-width: 680px;
+    max-width: 1080px;
 }
 
-.product1{
+.product{
     margin: 10px 5px;
-}
-.product2{
-    margin: 10px 5px;
-}
-.product3{
-    margin: 10px 5px;
+    width: 100%;
+    height: 30px;
+    display: flex;
 }
 
 .bl-list {
@@ -41,22 +69,43 @@ body{
     margin: 50px 25px;
     width: 60%;
     height: auto;
+    min-width:100px;
 }
 
 .bl-bought {
-
     box-shadow: 5px 5px 5px grey;
-    position: fixed;
-    top: 108px;
-    right: 190px;
-
     height:230px;
     width: 20%;
     background:	white;
     float:	right;
+    min-width:150px;
+    margin: 50px 25px;
+
+}
+@media(max-width: 680px){
+    .bl-bought{
+        width: 90%;
+        margin: 0;
+        float: left;
+        margin-top: 20px;
+        margin-left: 10px;
+        display: block;
+
+    }
+    .bl-list{
+        width: 90%;
+        margin: 0;
+        float: left;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .bl-background{
+        padding: 0;
+        min-width: 100px;
+    }
 }
 .bl-lists{
-
+    line-height: 50px;
     margin-left: 10px;
     padding-right:100px; ;
     text-align:center;
@@ -74,40 +123,7 @@ body{
     color:#000000;
     background: orange;
 }
-.bl-lists2{
-    margin-left: 10px;
-    padding-right:100px; ;
-    text-align:center;
-    padding:6px 4px;
-    border-radius: 4px;
-    font:14px Arial, Helvetica, sans-serif;
-    color:#000000;
-    background: #cdcbcb;
-}
-.bl-lists3{
-    padding:3px 3px;
-    border-radius: 40px;
-    font:12px Arial, Helvetica, sans-serif;
-    color:#000000;
-    background: orange;
-}
-.bl-lists4{
-    margin-left: 10px;
-    padding-right:100px; ;
-    text-align:center;
-    padding:6px 4px;
-    border-radius: 4px;
-    font:14px Arial, Helvetica, sans-serif;
-    color:#000000;
-    background: #cdcbcb;
-}
-.bl-lists5{
-    padding:3px 3px;
-    border-radius: 40px;
-    font:12px Arial, Helvetica, sans-serif;
-    color:#000000;
-    background: orange;
-}
+
 .bl-title{
 
     font-family: "Georgia", Times, serif;
@@ -129,38 +145,16 @@ body{
     margin-left:20px;
     left: 40%;
 }
-.bl-count1{
-    width: 100px;
-    height: 50px;
-    position: absolute;
-    top: 45.5%;
-    left: 40%;
-    margin: -125px 0 0 -125px;
-
+.bl-count{
+    width: 40%;
 }
-.bl-count2{
-    width: 100px;
-    height: 50px;
-    position: absolute;
-    top: 54.5%;
-    left: 40%;
-    margin: -125px 0 0 -125px;
-
+.name{
+    width: 30%;
+    margin: 2px 2px;
 }
-.bl-count3{
-    width: 100px;
-    height: 50px;
-    position: absolute;
-    top: 62.5%;
-    left: 40%;
-    margin: -125px 0 0 -125px;
 
-}
 .bl-button{
-
-    top: 50%;
-    left: 50%;
-    margin: -20px 0 0 580px;
+    width: 30%;
 }
 
 /*Кнопки*/

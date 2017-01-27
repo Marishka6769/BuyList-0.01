@@ -4,16 +4,20 @@ body{
     max-width: 1080px;
     margin:auto;
 }
+
 .bl-product{
+    border-radius: 5px;
     line-height: 100%;
     background: #FFF;
 }
+
 .button{
     height: 30px;
     width: 100%;
 }
+
 .name-prod{
-    margin-left: 5%;
+    margin-left: 2.5%;
     height: 27px;
     width:70%;
     background: #FFF;
@@ -22,6 +26,7 @@ body{
     font:14px Florence, cursive;
     border-radius: 3px;
 }
+
 .button-add-prod{
     height: 33px;
     width: 24%;
@@ -30,25 +35,21 @@ body{
     font-weight:bold;
     border-radius: 5px 5px 5px;
     padding-top: -2px;
-    /*padding-bottom: 8px;*/
-    margin: 0 0 0 -1%;
+    margin: 0 0 0 -0.95%;
     border: none;
     box-shadow: 0 2px #66abc5;
     font-size: 100%;
     min-height:100%;
-    vertical-align: middle;
     font:14px Florence, cursive bold;
-
-
 }
-.hr{
 
+.hr{
     border: none;
     background-color: #cdcbcb;
     color: #cdcbcb;
     height: 2px;
-
 }
+
 .bl-background {
     padding: 50px;
     min-width: 680px;
@@ -57,13 +58,12 @@ body{
 
 .product{
     margin: 10px 5px;
-    width: 100%;
-    height: 30px;
+    height: 50%;
     display: flex;
 }
 
 .bl-list {
-
+    border-radius: 5px;
     box-shadow: 5px 5px 5px grey;
     background: white;
     margin: 50px 25px;
@@ -73,15 +73,16 @@ body{
 }
 
 .bl-bought {
+    border-radius: 5px;
     box-shadow: 5px 5px 5px grey;
     height:230px;
-    width: 20%;
+    width: 30%;
     background:	white;
     float:	right;
     min-width:150px;
     margin: 50px 25px;
-
 }
+
 @media(max-width: 680px){
     .bl-bought{
         width: 90%;
@@ -90,8 +91,8 @@ body{
         margin-top: 20px;
         margin-left: 10px;
         display: block;
-
     }
+
     .bl-list{
         width: 90%;
         margin: 0;
@@ -99,106 +100,114 @@ body{
         margin-top: 20px;
         margin-left: 10px;
     }
+
     .bl-background{
         padding: 0;
         min-width: 100px;
     }
 }
-.bl-lists{
-    line-height: 50px;
-    margin-left: 10px;
-    padding-right:100px; ;
-    text-align:center;
-    padding:6px 4px;
-    border-radius: 4px;
-    font:14px Arial, Helvetica, sans-serif;
-    color:#000000;
+
+.list-item{
+    display: inline-block;
     background: #cdcbcb;
+    border-radius: 4px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    height: 23px;
+    padding:6px 4px 1px 4px;
 }
+
+.bl-lists{
+    font:14px Arial;
+    color:#000000;
+}
+
 .bl-lists1{
-    margin-left:5px;
     padding:2px 6px;
     border-radius: 10px;
-    font:11px Arial, Helvetica, sans-serif;
+    font:11px Arial;
     color:#000000;
     background: orange;
 }
 
 .bl-title{
-
-    font-family: "Georgia", Times, serif;
+    font-family: "Georgia";
     font-weight:bold;
     width: 100px;
     height: 38px;
-
     margin-top: 20px;
     margin-left:20px;
     left: 40%;
 }
-.bl-title1{
-    font-family: "Georgia", Times, serif;
-    font-weight:bold;
-    width: 100px;
-    height: 38px;
 
-    margin-top: 20px;
-    margin-left:20px;
-    left: 40%;
-}
 .bl-count{
     width: 40%;
+    margin: 8px 7.5px;
 }
+
 .name{
     width: 30%;
-    margin: 2px 2px;
+    margin: 12px 7.5px;
 }
 
 .bl-button{
     width: 30%;
+    margin: 3px 7.5px;
 }
 
 /*Кнопки*/
+
 .bl-label {
     text-align:center;
     padding:2px 6px;
     border-radius: 4px;
-    font:16px Arial, Helvetica, sans-serif;
+    font:16px Arial;
     color:#000000;
     background: #cdcbcb;
-
 }
+
 .bl-plus {
-    text-align:center;
     padding:2px 6px;
     border-radius: 50px;
-    font:15px Arial, Helvetica, sans-serif;
+    font:15px Arial;
     font-weight:bold;
-    color: #38ad5d;
+    color: #FFFFFF;
     background-color:#3bc740;
-    text-shadow: 1px 0px 3px #ffffff;
+    border: none;
 }
+
 .bl-minus{
+    border: none;
     padding:2px 6px;
     border-radius: 50px;
-    font:16px Arial, Helvetica, sans-serif;
+    font:15px Arial;
     font-weight:bold;
     color:#ffffff;
-    background-color:#ff0000;
-    text-shadow: 1px 0px 3px #ffffff;
-
+    background-color: #ff5a5a;
 }
+
 .bl-buttons{
-    margin-top:6px;
-    margin-bottom:8px;
-
-
-
-}
-.bl-buttons1{
-    padding:2px 8px;
+    border: none;
+    margin-top:4px;
+    padding:2px 6px;
     border-radius: 5px;
-    font:13px "Times New Roman", Times, serif;
+    font:15px Arial;
+    color: #FFFFFF;
+    background-color: #d2cbd3;
+    text-shadow: 1px 0px 3px #000000;
+    height: 25px;
+}
+
+.bl-buttons1{
+    border-radius: 5px;
+    font:13px "Times New Roman";
     font-weight:bold;
     color:#ffffff;
     background-color:#ff0000;
+    border: none;
+}
+
+.whynot{
+    display: flex;
+    width:70%;
 }

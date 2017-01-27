@@ -23,12 +23,12 @@ body{
     background: #FFF;
     border: 2px solid #d7d7d7;
     color: #000000;
-    font:14px Florence, cursive;
+    font:14px "Times New Roman";
     border-radius: 3px;
 }
 
 .button-add-prod{
-    height: 33px;
+    height: 30px;
     width: 24%;
     background: #2185D0;
     color:white ;
@@ -37,10 +37,8 @@ body{
     padding-top: -2px;
     margin: 0 0 0 -0.95%;
     border: none;
-    box-shadow: 0 2px #66abc5;
-    font-size: 100%;
     min-height:100%;
-    font:14px Florence, cursive bold;
+    font:14px "Times New Roman", cursive bold;
 }
 
 .hr{
@@ -108,6 +106,7 @@ body{
 }
 
 .list-item{
+    margin-top:5px;
     display: inline-block;
     background: #cdcbcb;
     border-radius: 4px;
@@ -118,14 +117,14 @@ body{
 }
 
 .bl-lists{
-    font:14px Arial;
+    font:14px "Times New Roman";
     color:#000000;
 }
 
 .bl-lists1{
     padding:2px 6px;
     border-radius: 10px;
-    font:11px Arial;
+    font:11px "Times New Roman";
     color:#000000;
     background: orange;
 }
@@ -142,7 +141,7 @@ body{
 
 .bl-count{
     width: 40%;
-    margin: 8px 7.5px;
+    margin: 10px 26.5px;
 }
 
 .name{
@@ -161,7 +160,7 @@ body{
     text-align:center;
     padding:2px 6px;
     border-radius: 4px;
-    font:16px Arial;
+    font:16px "Times New Roman";
     color:#000000;
     background: #cdcbcb;
 }
@@ -169,7 +168,7 @@ body{
 .bl-plus {
     padding:2px 6px;
     border-radius: 50px;
-    font:15px Arial;
+    font:15px "Times New Roman";
     font-weight:bold;
     color: #FFFFFF;
     background-color:#3bc740;
@@ -180,7 +179,7 @@ body{
     border: none;
     padding:2px 6px;
     border-radius: 50px;
-    font:15px Arial;
+    font:15px "Times New Roman";
     font-weight:bold;
     color:#ffffff;
     background-color: #ff5a5a;
@@ -191,10 +190,9 @@ body{
     margin-top:4px;
     padding:2px 6px;
     border-radius: 5px;
-    font:15px Arial;
-    color: #FFFFFF;
-    background-color: #d2cbd3;
-    text-shadow: 1px 0px 3px #000000;
+    font:15px "Times New Roman";
+    color: #000000;
+    background-color: #cdcbcb;
     height: 25px;
 }
 

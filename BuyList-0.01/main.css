@@ -8,7 +8,7 @@ body{
 .bl-product{
     border-radius: 5px;
     line-height: 100%;
-    background: #FFF;
+    background: white;
 }
 
 .button{
@@ -20,9 +20,9 @@ body{
     margin-left: 2.5%;
     height: 27px;
     width:70%;
-    background: #FFF;
+    background: white;
     border: 2px solid #d7d7d7;
-    color: #000000;
+    color: black;
     font:14px "Times New Roman";
     border-radius: 3px;
 }
@@ -32,7 +32,7 @@ body{
     width: 24%;
     background: #2185D0;
     color:white ;
-    font-weight:bold;
+    /*font-weight:bold;*/
     border-radius: 5px 5px 5px;
     padding-top: -2px;
     margin: 0 0 0 -0.95%;
@@ -154,7 +154,7 @@ body{
     margin: 3px 7.5px;
 }
 
-/*Кнопки*/
+/*РљРЅРѕРїРєРё*/
 
 .bl-label {
     text-align:center;
@@ -225,7 +225,7 @@ body{
     padding-bottom:0px;
     border-radius: 25px;
     font:28px "Helvetica Neue Light";
-    transition: height 4s;
+    transition: all 4s ease;
 }
 .badge:hover {
     height: 300px;
@@ -233,9 +233,12 @@ body{
 
 }
 @media print  {
+    .buy{
+        display:none;
+    }
     .badge {
         text-align: center;
-        border:3px solid grey;
+        border:3px solid darkviolet;
         font-family: Times, 'Times New Roman', serif;
         background-color: black;
         height:260px;
@@ -243,4 +246,31 @@ body{
         border-radius:25px 25px 0 0;
     }
 
+}
+
+button{
+    display: inline-block;
+    position: relative;
+}
+
+
+button .tooltiptext {
+    top:-32px;
+    left:53px;
+    visibility: hidden;
+    width: 70px;
+    background-color: darkviolet;
+    color: white;
+    /*text-align: center;*/
+    padding: 2px 0;
+    border-radius: 5px;
+    position: absolute;
+    height:21px;
+    line-height:21px;
+}
+
+button:hover .tooltiptext {
+    visibility: visible;
+    bottom:30px;
+    margin-left:-76px;
 }
